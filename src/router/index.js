@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
+import DemoRouteComponent from '@/demo/DemoRouteComponent'
+import DemoVuex from '@/demo/DemoVuex'
 
 Vue.use(Router)
 
@@ -10,6 +12,17 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/vuex',
+      name: 'DemoVuex',
+      component: DemoVuex
+    },
+    {
+      path: '/route-component/:number',
+      props: true,
+      name: 'DemoRouteComponent',
+      component: DemoRouteComponent
     }
   ]
 })

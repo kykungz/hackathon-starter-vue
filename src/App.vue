@@ -1,21 +1,28 @@
 <template>
   <div id="app">
-    <img width="100px" src="./assets/logo.png">
+    <img src="./assets/logo.png">
+    <demo-router-link/>
     <router-view/>
   </div>
 </template>
 
 <script>
+import DemoRouterLink from '@/demo/DemoRouterLink'
+
 export default {
-  name: 'App'
+  components: { DemoRouterLink }
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  // font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+  // color: #2c3e50;
+
+  img {
+    height: 100px;
+  }
 }
 </style>

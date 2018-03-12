@@ -1,22 +1,19 @@
 <template>
   <div id="home">
-    <h1 class="text-center">
+    <h1>
       <i class="fa fa-home" aria-hidden="true"></i>
-      Home
+      {{ msg }}
     </h1>
-    <demo-vuex></demo-vuex>
   </div>
 </template>
 
 <script>
-import DemoVuex from './DemoVuex.vue'
-
 export default {
   props: [],
-  components: { DemoVuex },
+  components: { },
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Home'
     }
   },
   methods: {},

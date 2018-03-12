@@ -1,8 +1,11 @@
 <template>
   <div>
     <h1>{{ counter }}</h1>
-    <button @click="update()" type="button" name="button">
-      Update Store
+    <button @click="increaseCounter()" type="button" name="button">
+      ➕
+    </button>
+    <button @click="decreaseCounter()" type="button" name="button">
+      ➖
     </button>
   </div>
 </template>
@@ -18,7 +21,8 @@ export default {
   },
   methods: {
     ...mapActions([
-      'update'
+      'increaseCounter',
+      'decreaseCounter'
     ])
   }
 }

@@ -9,9 +9,11 @@ export default new Vuex.Store({
   },
   // Mutations must be synchronous
   mutations: {
-    UPDATE (state, payload) {
-      console.log(payload)
+    INCREASE_COUNTER (state, payload) {
       state.counter++
+    },
+    DECREASE_COUNTER (state, payload) {
+      state.counter--
     }
   },
   getters: {
@@ -22,8 +24,11 @@ export default new Vuex.Store({
   // Actions can be asynchronous
   // context = { state, rootState, commit, dispatch, getters, rootGetters }
   actions: {
-    update (context, payload) {
-      context.commit('UPDATE', payload)
+    increaseCounter (context, payload) {
+      context.commit('INCREASE_COUNTER', payload)
+    },
+    decreaseCounter (context, payload) {
+      context.commit('DECREASE_COUNTER', payload)
     }
   }
 })
