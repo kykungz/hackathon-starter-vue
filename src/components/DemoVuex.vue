@@ -1,7 +1,9 @@
 <template>
   <div>
     <h1>{{ counter }}</h1>
-    <button @click="update()" type="button" name="button">Update Store</button>
+    <button @click="update()" type="button" name="button">
+      Update Store
+    </button>
   </div>
 </template>
 
@@ -28,6 +30,5 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
+<style lang="scss" scoped>
 </style>

@@ -1,7 +1,7 @@
 {
   "name": "hackathon-starter-vue",
   "version": "1.0.0",
-  "description": "Start project for Hackathon",
+  "description": "Starter project for Hackathon",
   "author": "Kongpon Charanwattanakit <jackykongpon@gmail.com>",
   "private": true,
   "scripts": {
@@ -13,6 +13,9 @@
     "bootstrap": "^4.0.0",
     "firebase": "^4.11.0",
     "font-awesome": "^4.7.0",
+    "node-sass": "^4.8.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
