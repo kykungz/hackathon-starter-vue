@@ -1,6 +1,6 @@
 # hackathon-starter-vue
 
-> Starter project for Hackathon
+> Hackathon Vuejs Boilerplate
 
 - [x] Bootstrap
 - [x] [FontAwesome v4.7.0](https://fontawesome.com/v4.7.0/icons/)
