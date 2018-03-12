@@ -2,6 +2,8 @@
 
 > Start project for Hackathon
 
+https://fontawesome.com/v4.7.0/icons/
+
 ## Build Setup
 
 ``` bash

@@ -1,6 +1,9 @@
 <template>
   <div id="home">
-    <h1 class="text-center">Home</h1>
+    <h1 class="text-center">
+      <i class="fa fa-home" aria-hidden="true"></i>
+      Home
+    </h1>
     <demo-vuex></demo-vuex>
   </div>
 </template>
