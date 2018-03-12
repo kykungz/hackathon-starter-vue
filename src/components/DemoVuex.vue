@@ -11,11 +11,6 @@
 import { mapGetters, mapActions } from 'vuex'
 
 export default {
-  data () {
-    return {
-      msg: 'Demo vuex'
-    }
-  },
   computed: {
     ...mapGetters([
       'counter'
