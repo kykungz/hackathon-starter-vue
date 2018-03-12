@@ -17,6 +17,7 @@
         </router-link>
       </li>
     </ul>
+    <hr>
   </div>
 </template>
 
