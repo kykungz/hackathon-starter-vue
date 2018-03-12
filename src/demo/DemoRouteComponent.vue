@@ -1,7 +1,6 @@
 <template>
   <h2>
-    Demo Route Component <br>
-    (param = <span class="badge badge-primary">{{ number }}</span>)
+    param = <span class="badge badge-primary">{{ number }}</span>
   </h2>
 </template>
 
