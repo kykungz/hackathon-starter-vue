@@ -20,6 +20,7 @@ export default {
   // -webkit-font-smoothing: antialiased;
   // -moz-osx-font-smoothing: grayscale;
   // color: #2c3e50;
+  padding: 1em;
 
   img {
     height: 100px;

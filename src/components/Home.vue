@@ -1,6 +1,7 @@
 <template>
   <div id="home">
     <h1>
+      <share-facebook></share-facebook>
       <i class="fa fa-home" aria-hidden="true"></i>
       {{ msg }}
     </h1>

@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import DemoRouteComponent from '@/demo/DemoRouteComponent'
 import DemoVuex from '@/demo/DemoVuex'
+import DemoShare from '@/demo/DemoShare'
 
 Vue.use(Router)
 
@@ -24,6 +25,11 @@ export default new Router({
       props: true,
       name: 'DemoRouteComponent',
       component: DemoRouteComponent
+    },
+    {
+      path: '/share',
+      name: 'DemoShare',
+      component: DemoShare
     }
   ]
 })
