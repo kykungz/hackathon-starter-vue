@@ -28,12 +28,12 @@ export default {
 
 <style lang="scss">
 .btn-twitter {
-  background: #1dcaff;
+  background: #4caae7;
   color: white;
   transition: all 300ms;
 
   &:hover {
-    background: #00b0e6;
+    background: #63b7eb;
   }
 
   i {

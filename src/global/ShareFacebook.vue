@@ -20,12 +20,12 @@ export default {
 
 <style lang="scss">
 .btn-facebook {
-  background: #3b5998;
+  background: #3b5996;
   color: white;
   transition: all 300ms;
 
   &:hover {
-    background: #334e85;
+    background: #4264aa;
   }
 
   i {
