@@ -10,4 +10,4 @@
 - [x] Firebase
 - [x] SASS/SCSS
 - [x] Social Sharing
-- [ ] Deployment
+- [x] Deployment
