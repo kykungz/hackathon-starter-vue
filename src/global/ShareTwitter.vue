@@ -21,7 +21,7 @@ export default {
     url: { default: 'https://google.co.th' },
     title: { default: 'title' },
     hashtags: { default: 'a,b,c' },
-    tag: { default: 'span' }
+    element: { default: 'span' }
   }
 }
 </script>

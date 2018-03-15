@@ -13,7 +13,7 @@
 export default {
   props: {
     url: { default: 'https://google.co.th' },
-    tag: { default: 'span' }
+    element: { default: 'span' }
   }
 }
 </script>
