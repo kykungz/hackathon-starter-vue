@@ -9,4 +9,5 @@
 - [x] Router
 - [x] Firebase
 - [x] SASS/SCSS
+- [x] Social Sharing
 - [ ] Deployment
